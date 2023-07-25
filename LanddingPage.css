@@ -1,0 +1,433 @@
+/* Reset some default styles to ensure consistency */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(230, 234, 239);
+  color: #000000;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  max-width: 165px;
+}
+
+nav img:hover {
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  width: 123px;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  padding: 7px 0px;
+}
+
+ul a:hover {
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: red;
+  margin: 5px;
+}
+
+section {
+  padding: 50px;
+  background-color: azure;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: -15px;
+  color: #010a38;
+}
+
+section p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  color: #010a38;
+  padding-bottom: 16px;
+}
+
+#hero {
+  background: url(../bg.png) no-repeat center center/cover;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+iframe {
+  display: block;
+  width: 50%;
+  height: 23rem;
+  padding-top: 10px;
+  margin: auto;
+  border-radius: 36px;
+}
+
+#vpn img {
+  float: right;
+  width: 30rem;
+  height: 26rem;
+  margin: 2.5rem 10rem;
+}
+
+#vpn p {
+  font-weight: 200;
+  padding-top: 6rem;
+  width: 29rem;
+  margin-left: 10rem;
+}
+
+#vpn {
+  background-color: white;
+}
+
+#vpn2 {
+  background-color: wheat;
+}
+
+#vpn2 p {
+  font-weight: 100;
+  padding-top: 1rem;
+  width: 360px;
+}
+
+#vpn2 h1 {
+  font-size: 2rem;
+}
+
+#vpn2 h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: -24px 0px 20px 0px;
+}
+
+#vpn2 img {
+  width: 20rem;
+  height: 14rem;
+  padding: 21px 0px 0px 27px;
+}
+
+#vpn2 .btn {
+  margin-left: 38vw;
+  margin-top: 12px;
+  width: 17rem;
+  border-radius: 36px;
+}
+
+#vpn3 {
+  background-color: white;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "grid-title grid-title grid-title "
+    "grid-box1 grid-box2 grid-box3"
+    "grid-box4 grid-box5 grid-box6";
+}
+
+#grid-title {
+  grid-area: grid-title;
+  display: block;
+}
+
+#grid-box1 {
+  grid-area: grid-box1;
+  display: block;
+}
+
+#grid-box1 p {
+  font-weight: 100;
+  width: 48vh;
+  padding-left: 8vh;
+}
+
+#grid-box2 {
+  grid-area: grid-box2;
+  display: block;
+}
+
+#grid-box2 p {
+  font-weight: 100;
+  width: 48vh;
+  padding-left: 8vh;
+}
+
+#grid-box3 {
+  grid-area: grid-box3;
+  display: block;
+}
+
+#grid-box3 p {
+  font-weight: 100;
+  width: 48vh;
+  padding-left: 8vh;
+}
+
+#grid-box4 {
+  grid-area: grid-box4;
+  display: block;
+}
+
+#grid-box4 p {
+  font-weight: 100;
+  width: 48vh;
+  padding-left: 8vh;
+}
+
+#grid-box5 {
+  grid-area: grid-box5;
+  display: block;
+}
+
+#grid-box5 p {
+  font-weight: 100;
+  width: 48vh;
+  padding-left: 8vh;
+}
+
+#grid-box6 {
+  grid-area: grid-box6;
+  display: block;
+}
+
+#grid-box6 p {
+  font-weight: 100;
+  width: 48vh;
+  padding-left: 8vh;
+}
+
+#vpn3 img {
+  width: 20rem;
+  height: 11rem;
+  margin-left: 10vh;
+}
+
+#vpn4 {
+  background-color: wheat;
+}
+
+.btn {
+  border: none;
+  background-color: teal;
+  padding: 19px;
+  margin-left: 15rem;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  background-color: green;
+  color: azure;
+  transition: 0.5s;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  background-color: teal;
+  padding: 13px;
+  margin-left: 37rem;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: green;
+  transition: 0.5s;
+  color: azure;
+}
+
+.under-button {
+  font-weight: 700;
+  font-size: 11px;
+  padding-top: 8px;
+  margin-right: 49px;
+}
+
+.container {
+  display: flex;
+  width: 86rem;
+  margin: auto;
+}
+
+.box {
+  padding: 20px 34px;
+  margin: 10px;
+  width: 50%;
+  background-color: #ffffff91;
+  border-radius: 15px;
+}
+
+.box:hover {
+  box-shadow: 0px 0px 48px #292323;
+  transition: 0.5s;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  
+  body{
+    width: max-content;
+  }
+  #vpn3 {
+    grid-template-areas:
+      "grid-title"
+      "grid-box1"
+      "grid-box2"
+      "grid-box3"
+      "grid-box4"
+      "grid-box5"
+      "grid-box6";
+  }
+  .grid-boxes {
+    margin-left: 19vh;
+  }
+
+  header {
+    width: 746px;
+  }
+  section {
+    width: 687px;
+  }
+
+  #vpn2 .btn {
+    margin-left: 33vh;
+  }
+
+  .button {
+    margin-left: 38vh;
+  }
+
+  .under-button {
+    margin-right: 0vh;
+  }
+
+  iframe {
+    height: 44vh;
+    width: 84vh;
+  }
+
+  #vpn img {
+    margin: 3.5rem 6rem;
+  }
+
+  #vpn p {
+    margin-left: 19vh;
+  }
+
+  .btn {
+    margin-left: 212px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .container {
+    flex-direction: column;
+    width: 108vh;
+    align-items: center;
+    margin-left: -5px;
+  }
+  footer {
+    width: 747px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    width: max-content;
+  }
+
+  .btn {
+    margin-left: 34vh;
+  }
+
+  #vpn2 .btn {
+    margin-left: 84vh;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1430px) {
+  body {
+    width: max-content;
+  }
+
+  .btn {
+    margin-left: 34vh;
+  }
+  #vpn2 .btn {
+    margin-left: 84vh;
+  }
+}
