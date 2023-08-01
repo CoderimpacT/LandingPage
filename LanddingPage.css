@@ -101,7 +101,7 @@ section p {
 }
 
 #hero {
-  background: url(/bg.png) no-repeat center center/cover;
+  background: url(bg.png) no-repeat center center/cover;
 }
 
 h2 {
